@@ -1,0 +1,8 @@
+.master {
+    background-image: url(./assets/top_left_bg.png), url(./assets/top_right_bg.png);
+    background-position: contain , contain ;
+    background-position: 3vw top , right 10px ;
+    background-size: min(220px , 30% ) , min(350px , 45% );
+    background-repeat: no-repeat , no-repeat ;
+    padding: 150px 0px ;
+}

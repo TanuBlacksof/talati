@@ -1,0 +1,19 @@
+
+.master{  
+    padding: calc(130px + 10vw) 0 75px  ;
+    min-height: 500px ;
+    background-image:url(./assets/featuredLeftImg.png), url(./assets/featuredRightImg.png) ,  linear-gradient(#FBD16A, #E49F37);
+    background-repeat: no-repeat, no-repeat , no-repeat;
+    background-position: 20px 0px  , right  20px, left calc( 12vw +  15px  )   ;
+    background-size:  min(320px, 45%) auto , min( 280px, 40%) auto, 100% 100%  ;
+    border: none !important ;
+}
+@media screen and  (max-width:768px) {
+    .master {
+        background-position: 20px 0px  , right  -15px, left calc( 12vw +  15px  )   ;
+        background-size:  0 0  , min( 280px, 40%) auto, 100% 100%  ;
+        padding-bottom: 0;
+
+    }
+    
+}
